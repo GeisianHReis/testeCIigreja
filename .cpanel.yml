@@ -2,5 +2,5 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/igrej478/public_html/
- - /cp index.html -R * $DEPLOYPATH
+ - /cp -R  index.html $DEPLOYPATH
  - / style.css $DEPLOYPATH
