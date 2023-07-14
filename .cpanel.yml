@@ -4,3 +4,4 @@ deployment:
  - export DEPLOYPATH=/home/igrej478/public_html/
  - cp -R * $DEPLOYPATH
  - / style.css $DEPLOYPATH
+ approot: /home/igrej478
